@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 
-function Contact() {
+function Contact(props) {
+    useEffect(() => {
+        props.setPage("About")
+        props.setUrl("/")
+    }, []) 
     return (
         <div className="container mt-5">
             <div className="row">

@@ -1,10 +1,11 @@
 import React, { useEffect } from "react";
 
+
 function About(props) {
-    useEffect(   () =>{
+    useEffect(() => {
         props.setPage("Portfolio")
         props.setUrl("/Portfolio")
-    }   ,[]) 
+    }, [])
     return (
         <div className="container mt-5">
             <h1 className="margin">About</h1>
@@ -18,14 +19,13 @@ function About(props) {
                         I worked two jobs through school instead of taking out a student loan and am currently attending Vanderbilt University's coding bootcamp. I love critical thinking and problem
                         solving, and enjoy both working alone and with a team. My goal is simply to help grow and grow with a company as a
                         developer. Check out a few of the skills I have acquired below and feel free to email me at calebc347@gmail.com or call/text me at 615-423-7642.
-           </p>
+                    </p>
                     <br />
                     <br />
                     <h1>Skills</h1>
                     <br />
                     <i className="fab fa-html5 fa-4x margin-right"></i><i className="fab fa-css3-alt fa-4x margin-right"></i><i className="fab fa-js-square fa-4x margin-right2"></i><i className="fab fa-node-js fa-4x margin-right"></i><i className="fab fa-react fa-4x margin-right"></i><i className="fab fa-npm fa-4x margin-right"></i><i className="fab fa-bootstrap fa-4x margin-right"></i>
                     <pre className="tab"><strong> HTML    CSS  Javascript Node.js  React.js     NPM    Bootstrap</strong> </pre>
-
                 </div>
                 <div className="col-md-6">
                     <h1 id="bigmargintop">Connect With Me:</h1>

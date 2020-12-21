@@ -16,13 +16,15 @@ function App() {
     <Router>
       <div>
         <Navbar />     
-          <Route exact path="/"   >
+          <Route exact path="/"  >
               <About setPage={setPage} setUrl={setUrl} />
             </Route>
           <Route exact path="/Portfolio"  >
               <Portfolio setPage={setPage} setUrl={setUrl} />
             </Route> 
-          <Route exact path="/Contact" component={Contact} />
+          <Route exact path="/Contact" >
+              <Contact setPage={setPage} setUrl={setUrl} />
+            </Route>
         <Footer page={page} url={url}/>
       </div>
     </Router>
