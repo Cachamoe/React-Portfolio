@@ -5,6 +5,7 @@ function Contact(props) {
     useEffect(() => {
         props.setPage("About")
         props.setUrl("/")
+        props.setText("If you would like to return to the home page, click below!")
     }, []) 
     return (
         <div className="container mt-5">

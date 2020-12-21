@@ -5,6 +5,7 @@ function Portfolio(props) {
     useEffect(() => {
         props.setPage("Contact")
         props.setUrl("/Contact")
+        props.setText("If you would like to contact me, click below!")
     }, [])
     return (
         <>

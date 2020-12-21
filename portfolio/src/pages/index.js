@@ -5,6 +5,7 @@ function About(props) {
     useEffect(() => {
         props.setPage("Portfolio")
         props.setUrl("/Portfolio")
+        props.setText("If you would like to look at some of my projects, click below!")
     }, [])
     return (
         <div className="container mt-5">
