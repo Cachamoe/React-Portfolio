@@ -7,7 +7,9 @@ import Portfolio from "./pages/portfolio";
 import Contact from "./pages/contact";
 import Navbar from "./components/Header";
 import Footer from "./components/Footer";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 function App() {
   const [page, setPage] = useState("")
@@ -18,10 +20,10 @@ function App() {
     <Router>
       <div>
         <Navbar />     
-          <Route exact path="/"  >
+          <Route exact path="/" >
               <About setPage={setPage} setUrl={setUrl} setText={setText}/>
             </Route>
-          <Route exact path="/Portfolio"  >
+          <Route exact path="/Portfolio" >
               <Portfolio setPage={setPage} setUrl={setUrl} setText={setText}/>
             </Route> 
           <Route exact path="/Contact" >
