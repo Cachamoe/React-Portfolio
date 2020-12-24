@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import "./style.css";
 
 
 function Contact(props) {
@@ -6,7 +7,7 @@ function Contact(props) {
         props.setPage("About")
         props.setUrl("/")
         props.setText("If you would like to return to the home page, click below!")
-    }, []) 
+    }, [])
     return (
         <div className="container mt-5">
             <div className="row">

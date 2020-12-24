@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import "./style.css";
 
 
 function About(props) {
@@ -13,7 +14,7 @@ function About(props) {
             <hr />
             <div className="row">
                 <div className="col-md-6">
-                    <img alt="Caleb" className="rounded mx-auto d-block margin" src="Assets/Images/20200616_141303 2.jpeg" width="276"
+                    <img alt="Caleb" className="rounded mx-auto d-block margin" src="../public/Assets/Images/20200616_141303 2.jpeg" width="276"
                         height="365" />
                     <p className="margin">
                         Hello! My name is Caleb Chaney and I currently live in Franklin, Tn. I'm a self-starter and I'm motivated.
@@ -25,7 +26,7 @@ function About(props) {
                     <br />
                     <h1>Skills</h1>
                     <br />
-                    <i className="fab fa-html5 fa-4x margin-right"></i><i className="fab fa-css3-alt fa-4x margin-right"></i><i className="fab fa-js-square fa-4x margin-right2"></i><i className="fab fa-node-js fa-4x margin-right"></i><i className="fab fa-react fa-4x margin-right"></i><i className="fab fa-npm fa-4x margin-right"></i><i className="fab fa-bootstrap fa-4x margin-right"></i>
+                    <i className="fab fa-html5 fa-4x margin-right3"></i><i className="fab fa-css3-alt fa-4x margin-right3"></i><i className="fab fa-js-square fa-4x margin-right2"></i><i className="fab fa-node-js fa-4x margin-right4"></i><i className="fab fa-react fa-4x margin-right4"></i><i className="fab fa-npm fa-4x margin-right3"></i><i className="fab fa-bootstrap fa-4x margin-right3"></i>
                     <pre className="tab"><strong> HTML    CSS  Javascript Node.js  React.js     NPM    Bootstrap</strong> </pre>
                 </div>
                 <div className="col-md-6">
