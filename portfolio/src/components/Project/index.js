@@ -3,16 +3,16 @@ import React from "react";
 
 function Project(props) {
     return (
-        <div class="block__73694">
-            <div class="container">
-                <div class="row d-flex no-gutters align-items-stretch">
-                    <div class="col-12 col-lg-8 block__73422 order-lg-2"
+        <div className="block__73694">
+            <div className="container">
+                <div className="row d-flex no-gutters align-items-stretch">
+                    <div className="col-12 col-lg-8 block__73422 order-lg-2"
                         style={props.img}
                         data-aos="fade-left" data-aos-delay="">
                     </div>
-                    <div class="col-lg-4 mr-auto p-lg-5 mt-4 mt-lg-0 order-lg-1" data-aos="fade-right"
+                    <div className="col-lg-4 mr-auto p-lg-5 mt-4 mt-lg-0 order-lg-1" data-aos="fade-right"
                         data-aos-delay="">
-                        <h2 class="mb-3 projectName">{props.projectName}</h2>
+                        <h2 className="mb-3 projectName">{props.projectName}</h2>
                         <p>Here is a link to the deployed site:</p>
                         <a
                             href={props.deployed}>{props.deployed}</a>
@@ -21,7 +21,7 @@ function Project(props) {
                         <p>Here is a link to GitHub:</p>
                         <a
                             href={props.github}>{props.github}</a>                          
-                        <ul class="ul-check primary list-unstyled mt-5">
+                        <ul className="ul-check primary list-unstyled mt-5">
                             <li>{props.list}</li>
                         </ul>
                     </div>
