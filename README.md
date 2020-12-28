@@ -1,5 +1,5 @@
 # React-Portfolio
-![]()
+![](Assets/Images/Screen%20Shot%202020-12-27%20at%207.10.54%20PM.png)
 ## Overview
 This website contains highlights of me and what I have done so far as well as ways to connect with me. 
 
