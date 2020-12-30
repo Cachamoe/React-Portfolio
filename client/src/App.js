@@ -1,35 +1,51 @@
 import logo from './logo.svg';
 import './App.css';
-import {BrowserRouter as Router, Route} from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import { useState } from 'react';
 import About from "./pages/index";
 import Portfolio from "./pages/portfolio";
 import Contact from "./pages/contact";
 import Navbar from "./components/Header";
 import Footer from "./components/Footer";
+import Project from "./components/Project";
+const data = require("./components/Project/projects.json");
+
 
 function App() {
+  
   const [page, setPage] = useState("")
   const [url, setUrl] = useState("")
   const [text, setText] = useState("")
   
-  return (
-    <Router>
-      <div>
-        <Navbar />     
+  
+    return (
+      <Router>
+        <div>
+          <Navbar />
           <Route exact path="/" >
-              <About setPage={setPage} setUrl={setUrl} setText={setText}/>
-            </Route> 
+            <About setPage={setPage} setUrl={setUrl} setText={setText} />
+          </Route>
           <Route exact path="/Portfolio" >
-              <Portfolio setPage={setPage} setUrl={setUrl} setText={setText}/>
-            </Route> 
+            <Portfolio setPage={setPage} setUrl={setUrl} setText={setText} 
+            {...data.map(project => (
+              <Project
+                projectName={project.projectName}
+                fade1={project.fade1}
+                fade2={project.fade2}
+                img={project.img}
+                deployed={project.deployed}
+                github={project.github}
+                list={project.list}
+              />
+            ))}/>
+          </Route>
           <Route exact path="/Contact" >
-              <Contact setPage={setPage} setUrl={setUrl} setText={setText}/>
-            </Route>
-        <Footer page={page} url={url} text={text}/>
-      </div>
-    </Router>
-  );
-}
+            <Contact setPage={setPage} setUrl={setUrl} setText={setText} />
+          </Route>
+          <Footer page={page} url={url} text={text} />
+        </div>
+      </Router>
+    );
+  }
 
 export default App;

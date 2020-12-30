@@ -1,6 +1,8 @@
 [
     {
         "projectName": "Calorie Tracker",
+        "fade1": "fade-left",
+        "fade2": "fade-right",
         "img": "/Assets/Images/Screen Shot 2020-11-18 at 5.22.01 PM.png",
         "deployed": "https://whispering-river-77918.herokuapp.com",
         "github": "https://github.com/Cachamoe/Calorie-Tracker",
@@ -8,6 +10,8 @@
     },
     {
         "projectName": "Sound Finder",
+        "fade1": "fade-right",
+        "fade2": "fade-left",
         "img": "/Assets/Images/Screen Shot 2020-09-22 at 8.50.04 AM.png",
         "deployed": "https://arrow913.github.io/soundfinder/",
         "github": "https://github.com/Cachamoe/Sound-Finder",
@@ -15,6 +19,8 @@
     },
     {
         "projectName": "Weather Dashboard",
+        "fade1": "fade-left",
+        "fade2": "fade-right",
         "img": "/Assets/Images/Screen Shot 2020-09-16 at 10.52.11 AM.png",
         "deployed": "https://cachamoe.github.io/Weather-Dashboard/",
         "github": "https://github.com/Cachamoe/Weather-Dashboard",
@@ -22,6 +28,8 @@
     },
     {
         "projectName": "Code Quiz",
+        "fade1": "fade-right",
+        "fade2": "fade-left",
         "img": "/Assets/Images/Screen Shot 2020-08-27 at 8.41.03 PM.png",
         "deployed": "https://cachamoe.github.io/Code-Quiz/",
         "github": "https://github.com/Cachamoe/Code-Quiz",
@@ -29,6 +37,8 @@
     },
     {
         "projectName": "Burger Logger",
+        "fade1": "fade-left",
+        "fade2": "fade-right",
         "img": "/Assets/Images/Screen Shot 2020-11-03 at 6.43.56 PM.png",
         "deployed": "https://evening-castle-60643.herokuapp.com/",
         "github": "https://github.com/Cachamoe/Burger-Logger",
@@ -36,6 +46,8 @@
     },
     {
         "projectName": "Fitness Tracker",
+        "fade1": "fade-right",
+        "fade2": "fade-left",
         "img": "/Assets/Images/Screen Shot 2020-11-29 at 7.07.14 PM.png",
         "deployed": "https://rocky-hollows-56823.herokuapp.com/",
         "github": "https://github.com/Cachamoe/Fitness-Tracker",
@@ -43,6 +55,8 @@
     },
     {
         "projectName": "Work Day Scheduler",
+        "fade1": "fade-left",
+        "fade2": "fade-right",
         "img": "/Assets/Images/Screen Shot 2020-09-07 at 12.36.47 PM.png",
         "deployed": "https://cachamoe.github.io/Third-Party-Api/",
         "github": "https://github.com/Cachamoe/Third-Party-Api",
