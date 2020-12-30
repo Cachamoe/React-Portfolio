@@ -32,23 +32,23 @@ function About(props) {
                 <div className="col-md-6">
                     <h1 id="bigmargintop">Connect With Me:</h1>
                     <ul id="listmargin">
-                        <li className="textmargin"><i className="fas fa-file"></i>
+                        <li className="textmargin"><i className="fas fa-file icon"></i>
                 My Resume: <a
                                 href="https://docs.google.com/document/d/1OKQAhkYipP6mVaQxLH_UPPqhoGnGw-i9h2QaGgLEcAw/edit?usp=sharing">https://docs.google.com/document/</a>
                         </li>
-                        <li className="textmargin"><i className="fab fa-github-square"></i>
+                        <li className="textmargin"><i className="fab fa-github-square icon"></i>
                 GitHub Profile: <a
                                 href="https://github.com/Cachamoe">https://github.com/Cachamoe?tab=repositories</a>
                         </li>
-                        <li className="textmargin"><i className="fab fa-linkedin"></i>
+                        <li className="textmargin"><i className="fab fa-linkedin icon"></i>
                 LinkedIn Profile: <a
                                 href="https://www.linkedin.com/in/caleb-chaney-6327731b1/">https://www.linkedin.com/in/caleb-chaney</a>
                         </li>
-                        <li className="textmargin"><i className="fab fa-instagram"></i>
+                        <li className="textmargin"><i className="fab fa-instagram icon"></i>
                 Instagram Account: <a
                                 href="https://www.instagram.com/caleb__chaney/">https://www.instagram.com/caleb__chaney/</a>
                         </li>
-                        <li className="textmargin"><i className="fas fa-tasks"></i>
+                        <li className="textmargin"><i className="fas fa-tasks icon"></i>
                 Scratch Project Page: <a
                                 href="https://scratch.mit.edu/projects/412304039/">https://scratch.mit.edu/projects/412304039/</a>
                         </li>

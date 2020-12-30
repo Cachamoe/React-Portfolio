@@ -1,5 +1,5 @@
 # React-Portfolio
-![](https://github.com/Cachamoe/React-Portfolio/blob/main/client/public/Assets/Images/Screen%20Shot%202020-12-27%20at%207.10.54%20PM.png)
+![](https://github.com/Cachamoe/React-Portfolio/blob/main/client/public/Assets/Images/Screen%20Shot%202020-12-30%20at%204.35.18%20PM.png)
 ## Overview
 This website contains highlights of me and what I have done so far as well as ways to connect with me. 
 
@@ -19,3 +19,4 @@ HTML, CSS, SCSS, Javascript, jQuery, React, Bootstrap, and Font Awesome
 
 ## Author/s
 Caleb Chaney
+
