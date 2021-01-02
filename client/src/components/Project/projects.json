@@ -6,7 +6,14 @@
         "img": "/Assets/Images/Screen Shot 2020-11-18 at 5.22.01 PM.png",
         "deployed": "https://whispering-river-77918.herokuapp.com",
         "github": "https://github.com/Cachamoe/Calorie-Tracker",
-        "list": ["Javascript", "CSS", "Bulma", "MySQL", "Handlebars", "Node.js", "Express.js", "Moment.js"]
+        "list": [
+            "Javascript",
+            "CSS",
+            "MySQL",
+            "Handlebars",
+            "Node.js",
+            "Express.js"
+        ]
     },
     {
         "projectName": "Sound Finder",
@@ -15,7 +22,14 @@
         "img": "/Assets/Images/Screen Shot 2020-09-22 at 8.50.04 AM.png",
         "deployed": "https://arrow913.github.io/soundfinder/",
         "github": "https://github.com/Cachamoe/Sound-Finder",
-        "list": ["HTML", "CSS", "Javascript", "jQuery", "Bootstrap", "Foundation", "Granim", "Font Awesome"]
+        "list": [
+            "HTML",
+            "CSS",
+            "Javascript",
+            "jQuery",
+            "Bootstrap",
+            "Granim"
+        ]
     },
     {
         "projectName": "Weather Dashboard",
@@ -24,7 +38,14 @@
         "img": "/Assets/Images/Screen Shot 2020-09-16 at 10.52.11 AM.png",
         "deployed": "https://cachamoe.github.io/Weather-Dashboard/",
         "github": "https://github.com/Cachamoe/Weather-Dashboard",
-        "list": ["HTML", "CSS", "Javascript", "jQuery", "Bootstrap", "Moment.js"]
+        "list": [
+            "HTML",
+            "CSS",
+            "Javascript",
+            "jQuery",
+            "Bootstrap",
+            "Moment.js"
+        ]
     },
     {
         "projectName": "Code Quiz",
@@ -33,7 +54,14 @@
         "img": "/Assets/Images/Screen Shot 2020-08-27 at 8.41.03 PM.png",
         "deployed": "https://cachamoe.github.io/Code-Quiz/",
         "github": "https://github.com/Cachamoe/Code-Quiz",
-        "list": ["HTML", "CSS", "Javascript", "jQuery", "Bootstrap"]
+        "list": [
+            "HTML",
+            "CSS",
+            "Javascript",
+            "jQuery",
+            "Popper.js",
+            "Bootstrap"
+        ]
     },
     {
         "projectName": "Burger Logger",
@@ -42,7 +70,14 @@
         "img": "/Assets/Images/Screen Shot 2020-11-03 at 6.43.56 PM.png",
         "deployed": "https://evening-castle-60643.herokuapp.com/",
         "github": "https://github.com/Cachamoe/Burger-Logger",
-        "list": ["Javascript", "CSS", "MySQL", "Node.js", "Express.js", "Handlebars", "JSON"]
+        "list": [
+            "Javascript",
+            "CSS",
+            "MySQL",
+            "Node.js",
+            "Express.js",
+            "JSON"
+        ]
     },
     {
         "projectName": "Fitness Tracker",
@@ -51,7 +86,14 @@
         "img": "/Assets/Images/Screen Shot 2020-11-29 at 7.07.14 PM.png",
         "deployed": "https://rocky-hollows-56823.herokuapp.com/",
         "github": "https://github.com/Cachamoe/Fitness-Tracker",
-        "list": ["HTML", "CSS", "Javascript", "MongoDB", "Mongoose", "Bootstrap", "JSON"]
+        "list": [
+            "HTML",
+            "CSS",
+            "Javascript",
+            "MongoDB",
+            "Mongoose",
+            "JSON"
+        ]
     },
     {
         "projectName": "Work Day Scheduler",
@@ -60,6 +102,13 @@
         "img": "/Assets/Images/Screen Shot 2020-09-07 at 12.36.47 PM.png",
         "deployed": "https://cachamoe.github.io/Third-Party-Api/",
         "github": "https://github.com/Cachamoe/Third-Party-Api",
-        "list": ["HTML", "CSS", "Javascript", "jQuery", "Moment.js", "Font Awesome"]
+        "list": [
+            "HTML",
+            "CSS",
+            "Javascript",
+            "jQuery",
+            "Moment.js",
+            "Bootstrap"
+        ]
     }
 ]
